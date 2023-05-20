@@ -66,6 +66,7 @@ class _TicTacToeScreenState extends State<TicTacToeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.amber,
         centerTitle: true,
         title: const Text(
           'Tic Tac Toe',
