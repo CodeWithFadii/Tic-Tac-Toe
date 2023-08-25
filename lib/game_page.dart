@@ -32,7 +32,7 @@ class _TicTacToeScreenState extends State<TicTacToeScreen> {
     gameOver = false;
   }
 
-  AlertDialog dialog(String text) => AlertDialog(
+  AlertDialog dialog(String text) => AlertDialog.adaptive(
         backgroundColor: Colors.white,
         title: Column(
           children: [
