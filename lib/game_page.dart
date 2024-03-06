@@ -16,6 +16,7 @@ class _TicTacToeScreenState extends State<TicTacToeScreen> {
   int player1Score = 0;
   int player2Score = 0;
   List<List<int>> answersList = [
+  
     [0, 1, 2],
     [3, 4, 5],
     [6, 7, 8],
